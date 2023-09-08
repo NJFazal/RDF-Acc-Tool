@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This Is A Sample Webpage</title>
+    </head>
+    <script src="acctoolbar.min.js"></script>
+    <script>
+    // optional init
+      window.onload = function() {
+        window.micAccessTool = new MicAccessTool({
+          link: 'AccessibilityStatement.doc',
+          contact: 'mailto:your-mail@your-awesome-website.com',
+          buttonPosition: 'left', 
+          forceLang: 'en_EN' 
+        });
+      }
+    </script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <body>
+        <h1 class="title">This Is A Sample Webpage</h1>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="8bitraz.png" alt="8 bit version of me" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Razal Dazal Fazal</h1> 
+                <p>Web Developer</p> 
+                <p>She Rocks!</p>
+              </div>
+            </div>
+          </div>
+          <a class="link" href="https://www.linkedin.com/in/nicole-fazal/">Random Link To My LinkedIn</a>
+          <div class="card-para">
+          <p class="para">This is just a sample webpage that I created to demonstrate the functionality of my accessibility plugin. As you can see, with the easy read function turned on, this is much easier to read. While you're here, feel free to check out my LinkedIn for more info about me and my work.</p>
+        </div>
+    </body>
+</html>
