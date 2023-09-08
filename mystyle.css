@@ -29,7 +29,7 @@ h1 {
     width: 200px;
     height: 250px;
     perspective: 1000px;
-    margin-left: 590px;
+    margin:auto;
     border-radius: 3px;
   }
   
@@ -89,9 +89,9 @@ h1 {
 
   .card-para {
     background-color:chartreuse;
-    width: 700px;
-    height: 230px;
+    width: 500px;
+    margin:auto;
+    padding: 2em 4em;
     perspective: 1000px;
-    margin-left: 350px;
     border-radius: 3px;
   }
